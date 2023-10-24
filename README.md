@@ -60,4 +60,5 @@ new 1.5 ml Elution Tube
 CAVEATS:
 
 -If the portable centrifuge cannot provide the requested g, try increasing centrifugate time.
+
 -The kit relies on a bead-beating step to mechanically lyse cells. Be gentle with that step, since it could lead to extensive DNA fragmentation, hampering library preparation afterwards.
