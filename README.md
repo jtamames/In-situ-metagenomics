@@ -58,7 +58,7 @@ through the MB Spin Column.
 16. Centrifuge at up to 16,000 x g for 2 min. Carefully place the MB Spin Column into a
 new 1.5 ml Elution Tube 
 
-17. Add 50–100 μl of Solution C6 to the center of the white filter membrane.
+17. Add 50 μl of Solution C6 to the center of the white filter membrane.
 
 18. Centrifuge at 15,000 x g for 1 min. Discard the MB Spin Column.
 
@@ -98,5 +98,7 @@ It is advisable to determine DNA concentrations before this step, to estimate th
 
 It is important to determine the ratio magnetic beads/DNA soultion to be used. The higher this ratio, the most exhaustive the separation, meaning less quantity of DNA, but longer sizes. Ideally we want longer DNAs, but if it was heavily fragmented in the extraction step, we could lose most of it.
 In our experience, good ratios are from 0.8 to 1.4 x. One possible approach is making one pass at lower ratios, quantify the concentration, and repeat with higher ratios if the concentration is enough.
+
+Concentration can be done eluting in a smaller volume than the original. Tipically you would elute in 50 μl (step 17 in DNA extraction). Now, in the final stpe of the purification, you can elute in a smaller volume to concentrate the DNA. The minimum advisable volume is around 15 μl (you will need 10 μl for the library, plus a few μl for quantification)
 
 
