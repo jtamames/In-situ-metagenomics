@@ -70,6 +70,11 @@ CAVEATS:
 
 ## DNA purification and concentration
 
+We use Omega Mag-Bind TotalPure NGS Beads. The purpose of this step is:
+-To remove possible impurities in the DNA solution that can harm the flow cell afterwards
+-To increase the ratio of long DNA sequences
+
+
 
 ## DNA quantification
 
