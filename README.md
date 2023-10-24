@@ -20,7 +20,7 @@ Vortex
 
 We use Qiagen's DNeasy PowerSoil Pro Kit for extracting DNA, because it does not imply heating steps, which is best for us. 
 
-A full protocol can be foud [here](https://www.qiagen.com/us/Resources/ResourceDetail?id=3d576814-4f1e-4e26-9c94-57d5dc2bb60a&lang=en). A summary follows:
+A full protocol can be found [here](https://www.qiagen.com/us/Resources/ResourceDetail?id=3d576814-4f1e-4e26-9c94-57d5dc2bb60a&lang=en). A summary follows:
 
 1. Spin the PowerBead Pro Tube briefly to ensure that the beads have settled at the bottom.
 Add up to 250 mg of sample and 800 μl of Solution CD1. Vortex briefly to mix.
@@ -72,5 +72,7 @@ CAVEATS:
 ## DNA QUANTIFICATION
 
 Equipment needed:
+
+![qubit](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/44301144-ca1a-4905-8137-ca8b2c5022d3)
 
 
