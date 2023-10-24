@@ -71,10 +71,14 @@ CAVEATS:
 ## DNA purification and concentration
 
 We use Omega Mag-Bind TotalPure NGS Beads. The purpose of this step is:
+
 -To remove possible impurities in the DNA solution that can harm the flow cell afterwards
+
 -To increase the ratio of long DNA sequences
 
+For this, we will use a magnetic rack like this one
 
+![rack](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ed689cfd-9d6b-41d5-a67b-302dee21cd80)
 
 ## DNA quantification
 
@@ -85,6 +89,7 @@ Qubit4 Fluorometer
 
 We use the High Sensitivity Assay. Find the full protocol [here](https://assets.thermofisher.com/TFS-Assets/BID/manuals/MAN0017210_Qubit_4_Assays_QR.pdf)
 
-As you need to load 400 ng on the nanopore flow cell, and you will put 10 &mu;l of DNA solution when preparing the library, you would need a concentration of 40 ng/&mu;l, at least.
+As you need to load 400 ng on the nanopore flow cell, and you will put 10 &mu;l of DNA solution 
+when preparing the library, you would need a concentration of 40 ng/&mu;l, at least.
 
 
