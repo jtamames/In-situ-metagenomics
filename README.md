@@ -68,8 +68,10 @@ CAVEATS:
 
 -The kit relies on a bead-beating step to mechanically lyse cells. Be gentle with that step, since it could lead to extensive DNA fragmentation, hampering library preparation afterwards.
 
+## DNA purification and concentration
 
-## DNA QUANTIFICATION
+
+## DNA quantification
 
 Equipment needed:
 
@@ -78,6 +80,6 @@ Qubit4 Fluorometer
 
 We use the High Sensitivity Assay. Find the full protocol [here](https://assets.thermofisher.com/TFS-Assets/BID/manuals/MAN0017210_Qubit_4_Assays_QR.pdf)
 
-As you need to load 400 ng on the nanopore flow cell, and you will put 10 &mu;l of DNA solution when preparing the library, you would need at least a concentration of 40 ng/&mu;l 
+As you need to load 400 ng on the nanopore flow cell, and you will put 10 &mu;l of DNA solution when preparing the library, you would need a concentration of 40 ng/&mu;l, at least.
 
 
