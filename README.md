@@ -74,5 +74,9 @@ CAVEATS:
 Equipment needed:
 
 ![qubit](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/44301144-ca1a-4905-8137-ca8b2c5022d3)
+Qubit4 Fluorometer
+
+We use the High Sensitivity Assay. Find the full protocol [here](https://assets.thermofisher.com/TFS-Assets/BID/manuals/MAN0017210_Qubit_4_Assays_QR.pdf)
+
 
 
