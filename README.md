@@ -83,7 +83,7 @@ For this, we will use a magnetic rack like this one
 The full protocol can be found [here](https://es.vwr.com/assetsvc/asset/es_ES/id/23373537/contents/m1378-mag-bind-total-pure-ngs-online.pdf)
 
 It is important to determine the ratio magnetic beads/DNA soultion to be used. The higher this ratio, the most exhaustive the separation, meaning less quantity of DNA, but longer sizes. Ideally we want longer DNAs, but if it was heavily fragmented in the extraction step, we could lose most of it.
-In our experience, good ratios are from 0.8 to 1.4. One possible approach is making one pass at lower ratios, quantify the concentration, and repeat with higher ratios if the concentration is enough.
+In our experience, good ratios are from 0.8 to 1.4 x. One possible approach is making one pass at lower ratios, quantify the concentration, and repeat with higher ratios if the concentration is enough.
 
 ## DNA quantification
 
