@@ -193,4 +193,4 @@ SqueezeMeta includes modes for working with long reads coming from MinION or Pac
 
 You can opt for two kind of analysis:
 - Relying on assemble the sequences: For having good results with this you will need sufficient DNA sequences for the assembly, otherwise the assembly will be very small and incomplete. How much you need is difficult to tell, because it depends of the richness and diversity of the microbiome. You can check the completeness of the assembly ussing the read mapping percentage. Should you see this percentage is low, it means that most reads are not represented in the assembly. In this case tyou can switch to:
-- Analyzing the reads directly: In this case, SqueezeMeta will forget about the assembly and will work with reads. In this way you will have results for all the 
+- Analyzing the reads directly: In this case, SqueezeMeta will forget about the assembly and will work with reads. This has the advantage of being more complete, since all reads are taken into account (not only the assembled ones, as when using an assembly). But also the drawback of being much slower.
