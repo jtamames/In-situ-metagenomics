@@ -103,6 +103,7 @@ We use Omega Mag-Bind TotalPure NGS Beads. The purpose of this step is:
 For this, we will use a magnetic rack like this one:
 
 ![rack](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ed689cfd-9d6b-41d5-a67b-302dee21cd80)
+Mini magnetic rack (2 tubes)
 
 The full protocol can be found [here](https://es.vwr.com/assetsvc/asset/es_ES/id/23373537/contents/m1378-mag-bind-total-pure-ngs-online.pdf)
 
