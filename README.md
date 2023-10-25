@@ -13,6 +13,10 @@ The protocol comprises several steps:
 - [MinION sequencing](#MINion-sequencing)
 - [Bioinformatic analysis](#Bioinformatic-analysis)
 
+And also other reccomendations:
+
+- [Powering the system](#Batteries)
+
 ## Sample preparation
 
 Follow your usual protocol for preparing samples. Rock samples must be grinded to a fine powder. Water samples must be filtered through a column to keep the adequate fraction.
@@ -196,3 +200,15 @@ You can opt for two kind of analysis:
 - Analyzing the reads directly: In this case, SqueezeMeta will forget about the assembly and will work with reads. This has the advantage of being more complete, since all reads are taken into account (not only the assembled ones, as when using an assembly). But also the drawback of being much slower. SqueezeMeta includes the 'sqm_longreads.pl' program for running this analysis. Check the [SqueezeMeta manual](https://github.com/jtamames/SqueezeMeta/blob/master/SqueezeMetaManual_1.6.3.pdf) for details 
 
 When few hours later the SqueezeMeta run has finished, you can load them into the SQMtools R library that is included in the SqueezeMeta pipeline, for examining the results and doing the appropriate statistics, as you can see in [this tutorial](https://github.com/jtamames/SqueezeMeta/wiki/Using-R-to-analyze-your-SQM-results)
+
+## Batteries
+
+If you are planning to use this system outdoors, you would need a power supply for running all the equipment above.
+
+We are using this very nice 200 W [portable batteries](https://www.uking-online.com/product/uking-portable-power-generator-222wh-60000mah-with-dc-ac-inverter-charged-by-solar-panel-wall-outlet-for-solar-generator-outdoor-camping-travel-emergency-backup):
+
+![battery](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/89de7f1f-ab0b-4789-80ea-9b620cd5d7e2)
+
+Their 60000mAh are providing us with several hours of autonomy. One of them is capable to support all the setting above for a full experiment, altough you will want to bring two for backup purposes. Another good feature is that they are rather cheap, and ligther than you expect (2.4 Kg).
+
+We couple the batteries to a small power strip, just for having all instruments plugged at once.
