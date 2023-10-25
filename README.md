@@ -216,12 +216,18 @@ Take into account that, in cold conditions, all bateries will be drained very qu
 
 ## Other equipment
 
-Some other stuff that you will find adequate (and miss if you didn´t bring it):
+Some other stuff that you will find adequate (and miss if you didn´t bring them):
 
 - A small tent: You would need some shelter, for you and for the equipment. The main requirements are:
   - Stable
   - tall enough to allow being sitted inside
   - ligth weigth
+
+We usually take two with us, one for working, and a second for keeping stuff and resting
+
+- A small, portable camping table: Stable and ample enough to fit instruments and work on it
+- A ligth camping chair, this and the table are a must.
+- A small power strip. We connect it to the battery, just for having all instruments plugged at once.
 
     
 
