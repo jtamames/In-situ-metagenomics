@@ -183,5 +183,11 @@ Let the sequencing proceed until you have enough number of sequences, or until y
 
 ## Bioinformatic analysis
 
+For this, you will need the SqueezeMeta software. Install it following the instructions in the [repo](https://github.com/jtamames/SqueezeMeta)
+
+SqueezeMeta is a software pipeline grouping all the tools needed for analyzing a metagenome. It has been designed to run in scarce computational resoulrces, even in a laptop.
+
+After stopping the sequencing, locate the fastq.gz sequence files produced, and create a samples file as indicated [here](https://github.com/jtamames/SqueezeMeta#the-samples-file). As these are minION reads, unpaired, you don´t need to specify a "pair2" file.
 
 
+SqueezeMeta includes mnodes for working woith long reads coming from MinION or PacBio sequencers. An explanation of these modes can also be found in the SqueezeMeta [README](https://github.com/jtamames/SqueezeMeta#10-working-with-oxford-nanopore-minion-and-pacbio-reads) and manual. 
