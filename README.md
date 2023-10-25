@@ -145,7 +145,10 @@ New equipment needed:
 MinION device and laptop computer
 
 You will need a MinION flow cell or Flonge. The latter is much less expensive, but also is single-use and provides less amount of sequencing because of its reduced number of pores.
-Check the flow cell as soon as it arrives. It is needed to start the experiment, and you will avoid nasty surprises (sometimes the cells are damaged and ONT will not replace them if they are expired)
-A Priming Kit is shipped with the Rapid Barcoding kit. You need it to prime the flow cell. This is usually done simultaneously to library preparation, so check the protocol above to do this.
 
+Check the flow cell as soon as it arrives. It is needed to start the experiment, and you will avoid nasty surprises (sometimes the cells are damaged and ONT will not replace them if they are expired).
+
+A Priming Kit is shipped with the Rapid Barcoding kit. You need it to prime the flow cell. This is usually done simultaneously to library preparation. The protocol can be found [here](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/rapid-barcoding-sequencing-sqk-rbk004/v/rbk_9054_v2_revaf_14aug2019/priming-and-loading-the-sp?devices=minion)
+
+Almost any laptop is suitable for managing the sequencing, altough a high-performance one is advisable. RAM memory is critical for the subsequent analysis, no less than 16 Gb is reccomended, and the more the better. Number of cores is also important, I would reccomend eigth. And you would need storage capacity for storing results. Take into account that Minkown
 
