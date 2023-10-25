@@ -183,11 +183,14 @@ Let the sequencing proceed until you have enough number of sequences, or until y
 
 ## Bioinformatic analysis
 
-For this, you will need the SqueezeMeta software. Install it following the instructions in the [repo](https://github.com/jtamames/SqueezeMeta)
+Now, we would like to have information about the taxa and functions encoded in the genes in the metagenome, and calculate abundances for each. For this, you will need the SqueezeMeta software. Install it following the instructions in the [repo](https://github.com/jtamames/SqueezeMeta)
 
 SqueezeMeta is a software pipeline grouping all the tools needed for analyzing a metagenome. It has been designed to run in scarce computational resoulrces, even in a laptop.
 
 After stopping the sequencing, locate the fastq.gz sequence files produced, and create a samples file as indicated [here](https://github.com/jtamames/SqueezeMeta#the-samples-file). As these are minION reads, unpaired, you don´t need to specify a "pair2" file.
 
+SqueezeMeta includes modes for working with long reads coming from MinION or PacBio sequencers. An explanation of these modes can also be found in the SqueezeMeta [README](https://github.com/jtamames/SqueezeMeta#10-working-with-oxford-nanopore-minion-and-pacbio-reads) and [manual](https://github.com/jtamames/SqueezeMeta/blob/master/SqueezeMetaManual_1.6.3.pdf). 
 
-SqueezeMeta includes mnodes for working woith long reads coming from MinION or PacBio sequencers. An explanation of these modes can also be found in the SqueezeMeta [README](https://github.com/jtamames/SqueezeMeta#10-working-with-oxford-nanopore-minion-and-pacbio-reads) and manual. 
+You can opt for two kind of analysis:
+- Relying on assemble the sequences: For having good results with this you will need sufficient DNA sequences for the assembly, otherwise the assembly will be very small and incomplete. How much you need is difficult to tell, because it depends of the richness and diversity of the microbiome. You can check the completeness of the assembly ussing the read mapping percentage. Should you see this percentage is low, it means that most reads are not represented in the assembly. In this case tyou can switch to:
+- Analyzing the reads directly: In this case, SqueezeMeta will forget about the assembly and will work with reads. In this way you will have results for all the 
