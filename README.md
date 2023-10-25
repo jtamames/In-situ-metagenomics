@@ -150,9 +150,9 @@ MinKNOWN needs internet connection because it downloads some data at the beginni
 
     1.Install latest version of the software.
     2.Disable the WiFi to prevent connection after restarting.
-    3.Shutdown the computer/device
+    3.Shutdown the computer
     4.Remove the ethernet cable
-    5.Power on the computer/device
+    5.Power on the computer
     6.Open a terminal and run the following commands
         sudo /opt/ont/minknow/bin/config_editor --filename /opt/ont/minknow/conf/sys_conf --conf system 
         --set on_acquisition_ping_failure=ignore
@@ -160,8 +160,8 @@ MinKNOWN needs internet connection because it downloads some data at the beginni
         sudo systemctl daemon-reload
         sudo systemctl enable minknow
         sudo systemctl start minknow
-    8.Shutdown the computer/device
-    9.Power on the computer/device
+    8.Shutdown the computer
+    9.Power on the computer
 
 For actually running the sequencing, you will need a MinION flow cell or Flonge. The latter is much less expensive, but also is single-use and provides less amount of sequencing because of its reduced number of pores.
 
@@ -177,7 +177,7 @@ Check the sequencing progress using the MinKNOWN's GUI. Several informations are
 
 ![stats](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ec4ce8d7-68e3-4382-9916-2cdd6eb50a36)
 
-
+Each channel is a grouping of several pores, and the status show what they are doing. The "Strand" ones are the channels that are sequencing a DNA strand. "Single pore" are empty channels. And "Adapter" are the ones that are attached to adapters but not actually sequencing. You would like to see few "Single pore" channels. If you see many, there is little DNA in the flow cell. Should you see many "adapter" channel, that means that there is plenty of free adapters, because again DNA is scarce, or because the adapters did not bind properly to DNA strands. The latter can happen because of small lenghs of the DNA strands, probably prointing to excesive fragmentation during the DNA extraction or the preparation of the library.
 
 
 
