@@ -177,7 +177,11 @@ Check the sequencing progress using the MinKNOWN's GUI. Several informations are
 
 ![stats](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ec4ce8d7-68e3-4382-9916-2cdd6eb50a36)
 
-Each channel is a grouping of several pores, and the status show what they are doing. The "Strand" ones are the channels that are sequencing a DNA strand. "Single pore" are empty channels. And "Adapter" are the ones that are attached to adapters but not actually sequencing. You would like to see few "Single pore" channels. If you see many, there is little DNA in the flow cell. Should you see many "adapter" channel, that means that there is plenty of free adapters, because again DNA is scarce, or because the adapters did not bind properly to DNA strands. The latter can happen because of small lenghs of the DNA strands, probably prointing to excesive fragmentation during the DNA extraction or the preparation of the library.
+Each channel is a grouping of several pores, and the status show what they are doing. The "Strand" ones are the channels that are sequencing a DNA strand. "Single pore" are empty channels. And "Adapter" are the ones that are attached to adapters but not actually sequencing. You would like to see few "Single pore" channels. If you see many, there is little DNA in the flow cell. Should you see many "adapter" channels, that means that there is plenty of free adapters, again because DNA is scarce, or because the adapters did not bind properly to DNA strands. The latter can happen because of small lenghs of the DNAs, probably prointing to excesive fragmentation during the DNA extraction or the preparation of the library.
+
+Let the sequencing proceed until you have enough number of sequences, or until you see that the cell ran out of DNA (you will notice a decrease in the number of "strand" channels). In the latter case, you always can load more library in the cell, if you have prepared excess of it.
+
+## Bioinformatic analysis
 
 
 
