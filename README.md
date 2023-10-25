@@ -106,6 +106,7 @@ We use Omega Mag-Bind TotalPure NGS Beads. The purpose of this step is:
 For this, we will use a magnetic rack like this one:
 
 ![rack](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ed689cfd-9d6b-41d5-a67b-302dee21cd80)
+
 Mini magnetic rack (2 tubes)
 
 The full protocol can be found [here](https://es.vwr.com/assetsvc/asset/es_ES/id/23373537/contents/m1378-mag-bind-total-pure-ngs-online.pdf)
@@ -132,5 +133,5 @@ CAVEATS:
 - A mini thermocycler is needed because the transposase in the kit needs to be inactivated at 80&deg; C. We use [this one](https://www.minipcr.com/product/minipcr-mini8-thermal-cycler) because of its portability, usability, bluetooth connection, and because it is really cute (but beware, it is also very sensitive and stops working in the cold).
 - Be efficient if the transposase step. Do not let it to act longer than one minute. Likely, we already have a fragmented DNA because of the extraction step. If the transposase acts wildly, you will end with very short DNAs that will compromise the sequencing, because the adapter binds less efficiently to short sequences. Have everything ready for inactivating the transposase before adding it.
 - The thermocycler can be replaced by a thermal bath with hot water. We have succesfully tried this is some experiments. You would need three small pots. Fill one with hot water that you keep in a thermo, or bring an electric kettle, or a portable water heater. Heat the water to 85&deg; C, checking the temperature with a digital thermometer. Fill a second pot with water at 35&deg; C, using the same procedure. And finally fill the other pot with water and ice. After adding the transposase, take the tube with tweezers, incubate it by submerging the tube in the 35&deg; C bath, then pass it to 80&deg; C, and finally cool it down in the water/ice pot.
-  
--The Rapid Barcoding kit comes with 12 barcodes, allowing multiplexing of different samples in the same library. Additional barcodes can be purchased if needed.
+- The Rapid Barcoding kit comes with 12 barcodes, allowing multiplexing of different samples in the same library. Additional barcodes can be purchased if needed.
+- The binding of adapters to sequences is rather fragile. After adding the adapters, be very gentle in all subsequent manipulations (no vortexing of course, mix solutions by pippeting up and down very carefully)  
