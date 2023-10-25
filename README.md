@@ -160,7 +160,8 @@ MinKNOWN needs internet connection because it downloads some data at the beginni
     4.Remove the ethernet cable
     5.Power on the computer/device
     6.Open a terminal and run the following commands
-        sudo /opt/ont/minknow/bin/config_editor --filename /opt/ont/minknow/conf/sys_conf --conf system --set on_acquisition_ping_failure=ignore
+        sudo /opt/ont/minknow/bin/config_editor --filename /opt/ont/minknow/conf/sys_conf --conf system 
+        --set on_acquisition_ping_failure=ignore
     7. Restart the MinKNOW service by running the following commands.
         sudo systemctl daemon-reload
         sudo systemctl enable minknow
