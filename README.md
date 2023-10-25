@@ -1,6 +1,16 @@
 # In-situ-metagenomics
 A protocol for perrforming sequencing experiments directly in the field
 
+The protocol comprises several steps:
+
+- Sample preparation
+- DNA extraction
+- DNA quantification
+- DNA purification/concentration
+- Library preparation
+- ONT sequencing
+- Bioinformatic analysis
+
 ## Sample preparation
 
 Follow your usual protocol for preparing samples. Rock samples must be grinded to a fine powder. Water samples must be filtered through a column to keep the adequate fraction.
