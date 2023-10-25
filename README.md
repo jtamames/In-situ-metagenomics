@@ -223,7 +223,7 @@ Some other stuff that you will find adequate (and miss if you didn´t bring them
   - tall enough to allow being sitted inside
   - ligth weigth
 
-We usually take two with us, one for working, and a second for keeping stuff and resting
+  We usually take two with us, one for working, and a second for keeping stuff and resting
 
 - A small, portable camping table: Stable and ample enough to fit instruments and work on it.
 - A ligth camping chair. This and the table are a must.
@@ -233,7 +233,7 @@ We usually take two with us, one for working, and a second for keeping stuff and
   
 ![fridge](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/1b7b9f64-db2e-4326-be6a-56642e287652)
 
-In case you are working in cold conditions, you will find interesting the use of the small hand warmer that you can see in the picture. Putting two of these in the containers helps to keep the temperature for devices such as the batteries or the MinION sequencer, that are sensitive to cold.
+  In case you are working in cold conditions, you will find interesting the use of the small hand warmer that you can see in the picture. Putting two of these in the containers helps to keep the temperature warm enoughfor devices such as the batteries or the MinION sequencer, that are sensitive to cold.
 
 - A container for residues: Don´t forget this, you will produce some resudies that need to be disposed properly.
 
