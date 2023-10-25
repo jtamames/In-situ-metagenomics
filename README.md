@@ -76,9 +76,10 @@ new 1.5 ml Elution Tube
 
 CAVEATS:
 
--If the portable centrifuge cannot provide the requested g, try increasing centrifugation time.
+- If the portable centrifuge cannot provide the requested g, try increasing centrifugation time.
 
--The kit relies on a bead-beating step to mechanically lyse cells. Be gentle with that step, since it could lead to extensive DNA fragmentation, hampering library preparation afterwards.
+- The kit relies on a bead-beating step to mechanically lyse cells. Be gentle with that step, since it could lead to extensive DNA fragmentation, hampering library preparation afterwards.
+- If you expect the DNA concentration in your samples to be low, you can use several tubes for steps 1-8, and then pass them through a single elution column. In this way you can increase the amount of DNA retained in the column.
 
 ## DNA quantification
 
@@ -121,11 +122,11 @@ New equipment needed:
 ![miniPCR](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/bf925ca1-1c5b-44d6-b117-9fff1b454f90)
 Mini-thermocycler
 
-In this step we create the DNA library for sequencing in the minION device. There are different ways to prepare DNA libraries for usage in ONT sequencers. We use the [Rapid Barcoding Kit](https://store.nanoporetech.com/eu/rapid-barcoding-kit.html), because of its simplicity and quickness. Little manipulation is needed. In brief, the protocol for creating the library includes fragmentation with a transposase that fragments DNA and inserts barcodes in the tips of the DNA sequences. Then, Rapid Sequencing Adapters are then added to the tagged ends, and the library is ready for sequencing. The full protocol can be found [here](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/rapid-barcoding-sequencing-sqk-rbk004/v/rbk_9054_v2_revaf_14aug2019)
+In this step we create the DNA library for sequencing in the minION device. There are different ways to prepare DNA libraries for usage in ONT sequencers. We use the [Rapid Barcoding kit](https://store.nanoporetech.com/eu/rapid-barcoding-kit.html), because of its simplicity and quickness. Little manipulation is needed. In brief, the protocol for creating the library includes fragmentation with a transposase that fragments DNA and inserts barcodes in the tips of the DNA sequences. Then, Rapid Sequencing Adapters are then added to the tagged ends, and the library is ready for sequencing. The full protocol can be found [here](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/rapid-barcoding-sequencing-sqk-rbk004/v/rbk_9054_v2_revaf_14aug2019)
 
 CAVEATS:
 
 - A mini thermocycler is needed because the transposase in the kit needs to be inactivated at 80&deg; C. We use [this one](https://www.minipcr.com/product/minipcr-mini8-thermal-cycler) because of its portability, usability, bluetooth connection, and because it is really cute (but beware, it is also very sensitive and stops working in the cold).
 - Be efficient if the transposase step. Do not let it to act longer than one minute. Likely, we already have a fragmented DNA because of the extraction step. If the transposase acts wildly, you will end with very short DNAs that will compromise the sequencing, because the adapter binds less efficiently to short sequences. Have everything ready for inactivating the transposase before adding it.
-- The thermocycler can be replaced by a thermal bath with hot water. We have succesfully tried this is some experiments. You would need three small pots. Fill one with hot water that you keep in a thermo, or bring an electric kettle, or a portable water heater. Heat the water to 85&deg; C, cheching the temperature with a digital thermometer. Fill a second pot with water at 35&deg; C, using the same procedure. And finally fill the other pot with water and ice. After adding the transposase, take the tube with tweezers, incubate it by submerging the tube in the 35&deg; C bath, then pass it to 80&deg; C, and finally cool it down in the water/ice pot.
-
+- The thermocycler can be replaced by a thermal bath with hot water. We have succesfully tried this is some experiments. You would need three small pots. Fill one with hot water that you keep in a thermo, or bring an electric kettle, or a portable water heater. Heat the water to 85&deg; C, checking the temperature with a digital thermometer. Fill a second pot with water at 35&deg; C, using the same procedure. And finally fill the other pot with water and ice. After adding the transposase, take the tube with tweezers, incubate it by submerging the tube in the 35&deg; C bath, then pass it to 80&deg; C, and finally cool it down in the water/ice pot.
+-The Rapid Barcoding kit comes with 12 barcodes, allowing multiplexing of different libraries.
