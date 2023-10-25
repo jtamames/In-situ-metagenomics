@@ -125,5 +125,5 @@ In this step we create the DNA library for sequencing in the minION device. Ther
 
 CAVEATS:
 
-- A mini thermocycler is needed because the transposase in the kit needs to be inactivated at 80&degree; C.
+- A mini thermocycler is needed because the transposase in the kit needs to be inactivated at 80&deg; C.
 
