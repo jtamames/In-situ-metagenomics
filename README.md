@@ -237,6 +237,7 @@ Some other stuff that you will find adequate (and miss if you didn´t bring them
 
   In case you are working in cold conditions, you will find interesting the use of the small hand warmer that you can see in the picture. Putting two of these in the containers helps to keep the temperature warm enoughfor devices such as the batteries or the MinION sequencer, that are sensitive to cold.
 
+Finally, you will need a backpack or similar to carry all this. We pack everything in a 70L backpack. Final weigth is around 15 Kg, so don´t forget to enrol your strongest student in the project!
 
 
 
