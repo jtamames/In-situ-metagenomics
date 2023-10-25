@@ -15,7 +15,7 @@ The protocol comprises several steps:
 
 And also other reccomendations:
 
-- [Powering the system](#Batteries)
+- [Powering the system](#Powering-the-system)
 
 ## Sample preparation
 
@@ -201,7 +201,7 @@ You can opt for two kind of analysis:
 
 When few hours later the SqueezeMeta run has finished, you can load them into the SQMtools R library that is included in the SqueezeMeta pipeline, for examining the results and doing the appropriate statistics, as you can see in [this tutorial](https://github.com/jtamames/SqueezeMeta/wiki/Using-R-to-analyze-your-SQM-results)
 
-## Batteries
+## Powering the system
 
 If you are planning to use this system outdoors, you would need a power supply for running all the equipment above.
 
