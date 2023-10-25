@@ -228,14 +228,14 @@ Some other stuff that you will find adequate (and miss if you didn´t bring them
 - A small, portable camping table: Stable and ample enough to fit instruments and work on it.
 - A ligth camping chair. This and the table are a must.
 - A small power strip. We connect it to the battery, just for having all instruments plugged at once.
+- A container for residues: Don´t forget this, you will produce some resudies that need to be disposed properly.
+
 
 - Thermal isolated containers: some reactives (and flow cells) need to be in cold storage. We use a portable camping fridge like this one, and fill it with ice blocks.
   
 ![fridge](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/1b7b9f64-db2e-4326-be6a-56642e287652)
 
   In case you are working in cold conditions, you will find interesting the use of the small hand warmer that you can see in the picture. Putting two of these in the containers helps to keep the temperature warm enoughfor devices such as the batteries or the MinION sequencer, that are sensitive to cold.
-
-- A container for residues: Don´t forget this, you will produce some resudies that need to be disposed properly.
 
 
 
