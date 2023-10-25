@@ -144,5 +144,8 @@ New equipment needed:
 
 MinION device and laptop computer
 
+You will need a MinION flow cell or Flonge. The latter is much less expensive, but also is single-use and provides less amount of sequencing because of its reduced number of pores.
+Check the flow cell as soon as it arrives. It is needed to start the experiment, and you will avoid nasty surprises (sometimes the cells are damaged and ONT will not replace them if they are expired)
+A Priming Kit is shipped with the Rapid Barcoding kit. You need it to prime the flow cell. This is usually done simultaneously to library preparation, so check the protocol above to do this.
 
 
