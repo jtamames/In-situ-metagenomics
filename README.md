@@ -235,7 +235,9 @@ We usually take two with us, one for working, and a second for keeping stuff and
 
 In case you are working in cold conditions, you will find interesting the use of the small hand warmer that you can see in the picture. Putting two of these in the containers helps to keep the temperature for devices such as the batteries or the MinION sequencer, that are sensitive to cold.
 
--A container for residues: Don´t forget this.
+- A container for residues: Don´t forget this, you will produce some resudies that need to be disposed properly.
+
+
 
 
 
