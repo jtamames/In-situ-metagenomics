@@ -144,12 +144,6 @@ New equipment needed:
 
 MinION device and laptop computer
 
-You will need a MinION flow cell or Flonge. The latter is much less expensive, but also is single-use and provides less amount of sequencing because of its reduced number of pores.
-
-Check the flow cell as soon as it arrives. It is needed to start the experiment, and you will avoid nasty surprises (sometimes the cells are damaged and ONT will not replace them if they are expired).
-
-A Priming Kit is shipped with the Rapid Barcoding kit. You need it to prime the flow cell. This is usually done simultaneously to library preparation. The protocol can be found [here](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/rapid-barcoding-sequencing-sqk-rbk004/v/rbk_9054_v2_revaf_14aug2019/priming-and-loading-the-sp?devices=minion)
-
 First, install [MinKNOW](https://nanoporetech.com/about-us/news/introducing-new-minknow-app) in the laptop. This is the ONT software managing the MinION. Almost any laptop is suitable for managing the sequencing, altough a high-performance one is advisable. RAM memory is critical for the subsequent analysis, no less than 16 Gb is reccomended, and the more the better. Number of cores is also important, I would reccomend eigth. And you would need storage capacity for storing results. Take into account that MinKNOW will require a minimum amount of storage to start the sequencing (around 100 Gb). If the laptop has a GPU, much better, because this will increase a lot the basecalling performance.
 
 MinKNOWN needs internet connection because it downloads some data at the beginning of the run. If you are planning to do sequencing in the wild, you will need to set up MinKNOWN to work wth no internet connectivity. In order to change your Linux version of MinKNOW to the offline version, do the following:
@@ -162,12 +156,21 @@ MinKNOWN needs internet connection because it downloads some data at the beginni
     6.Open a terminal and run the following commands
         sudo /opt/ont/minknow/bin/config_editor --filename /opt/ont/minknow/conf/sys_conf --conf system 
         --set on_acquisition_ping_failure=ignore
-    7. Restart the MinKNOW service by running the following commands.
+    7. Restart the MinKNOW service by running the following commands:
         sudo systemctl daemon-reload
         sudo systemctl enable minknow
         sudo systemctl start minknow
     8.Shutdown the computer/device
     9.Power on the computer/device
 
+For actually running the sequencing, you will need a MinION flow cell or Flonge. The latter is much less expensive, but also is single-use and provides less amount of sequencing because of its reduced number of pores.
+
+Check the flow cell as soon as it arrives. It is needed to start the experiment, and you will avoid nasty surprises (sometimes the cells are damaged and ONT will not replace them if they are expired).
+
+A Priming Kit is shipped with the Rapid Barcoding kit. You need it to prime the flow cell. This is usually done simultaneously to library preparation. The protocol can be found [here](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/rapid-barcoding-sequencing-sqk-rbk004/v/rbk_9054_v2_revaf_14aug2019/priming-and-loading-the-sp?devices=minion)
+
+Then proceed to load the library on the flow cell, following the same protocol above. 
+
+Open the MinKNOWN application and click on the "Start sequencing" option. Navigate through the menus following [this protocol](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/experiment-companion-minknow/v/mke_1013_v1_revcy_11apr2016). The options are very straightforward, and very few options need to be adjusted. Set run legth to 72 hours (you can always stop it sooner). Set the output to gzip compressed fastq files. You can also change the time between MUX scans if you want to check the flow cell status more or less often
 
 
