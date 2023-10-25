@@ -13,7 +13,7 @@ The protocol comprises several steps:
 - ONT sequencing
 - Bioinformatic analysis
 
-## Sample preparation
+##Sample preparation
 
 Follow your usual protocol for preparing samples. Rock samples must be grinded to a fine powder. Water samples must be filtered through a column to keep the adequate fraction.
 
