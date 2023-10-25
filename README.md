@@ -1,5 +1,7 @@
 # In-situ-metagenomics
-A protocol for perrforming sequencing experiments directly in the field
+This is a protocol for performing sequencing experiments directly in the field. A full paper describing the application of this protocol can be found in [BioRxiv](https://www.biorxiv.org/content/10.1101/2023.01.25.525498v1)
+
+We have been able to run this full protocol in less than 24 hours, in several instances.
 
 The protocol comprises several steps:
 
