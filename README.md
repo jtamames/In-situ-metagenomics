@@ -79,6 +79,7 @@ CAVEATS:
 - If the portable centrifuge cannot provide the requested g, try increasing centrifugation time.
 
 - The kit relies on a bead-beating step to mechanically lyse cells. Be gentle with that step, since it could lead to extensive DNA fragmentation, hampering library preparation afterwards.
+  
 - If you expect the DNA concentration in your samples to be low, you can use several tubes for steps 1-8, and then pass them through a single elution column. In this way you can increase the amount of DNA retained in the column.
 
 ## DNA quantification
