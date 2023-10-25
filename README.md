@@ -21,8 +21,8 @@ Follow your usual protocol for preparing samples. Rock samples must be grinded t
 
 Equipment needed:
 
-![spinner](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/5b760214-6524-45f9-9603-b3334fad3fbb)
-![vortex](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/7dad732d-bcb4-4626-ab5c-5786e9a4220a)
+![spinner](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/5b760214-6524-45f9-9603-b3334fad3fbb)&nbsp;&nbsp;
+![vortex](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/7dad732d-bcb4-4626-ab5c-5786e9a4220a)&nbsp;&nbsp;
 ![centri](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/646fcb28-f845-4a64-9807-782cbf82dff0)
 
 Spinner&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vortex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mini centrifuge
