@@ -121,5 +121,6 @@ New equipment needed:
 ![miniPCR](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/bf925ca1-1c5b-44d6-b117-9fff1b454f90)
 Mini-thermocycler
 
-In this step we create the DNA library for sequencing in the minION device. There are different ways to prepare DNA libraries for usage in ONT sequencers. We use the [Rapid Barcoding Kit](https://store.nanoporetech.com/eu/rapid-barcoding-kit.html), because of its simplicity and quickness. Little manipulation is needed. In brief, the protocol for creating the library includes fragmentation with a transposase that fragments DNA and inserts barcodes in the tips of the DNA sequences 
+In this step we create the DNA library for sequencing in the minION device. There are different ways to prepare DNA libraries for usage in ONT sequencers. We use the [Rapid Barcoding Kit](https://store.nanoporetech.com/eu/rapid-barcoding-kit.html), because of its simplicity and quickness. Little manipulation is needed. In brief, the protocol for creating the library includes fragmentation with a transposase that fragments DNA and inserts barcodes in the tips of the DNA sequences. Then, Rapid Sequencing Adapters are then added to the tagged ends, and the library is ready for sequencing. The full protocol can be found [here](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/rapid-barcoding-sequencing-sqk-rbk004/v/rbk_9054_v2_revaf_14aug2019)
+
 
