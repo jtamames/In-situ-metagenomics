@@ -140,7 +140,8 @@ CAVEATS:
 
 New equipment needed:
 
-![minion](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/81b2e07b-1638-49ad-ac1b-966095195107)
+![minion](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/1e260dac-edae-4c33-9430-f143aa3e5240)
+
 MinION device and laptop computer
 
 
