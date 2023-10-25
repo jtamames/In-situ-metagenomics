@@ -82,7 +82,7 @@ CAVEATS:
 
 ## DNA quantification
 
-Equipment needed:
+New equipment needed:
 
 ![qubit](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/44301144-ca1a-4905-8137-ca8b2c5022d3)
 Qubit4 Fluorometer
@@ -112,5 +112,12 @@ It is important to determine the ratio magnetic beads/DNA soultion to be used. T
 In our experience, good ratios range from 0.8 to 1.4 x. One possible approach is making one pass at lower ratios, quantify the concentration, and repeat with higher ratios if the concentration is enough.
 
 Concentration can be done eluting in a smaller volume than the original. Tipically you would elute in 50 μl (step 17 in DNA extraction). Now, in the final stpe of the purification, you can elute in a smaller volume to concentrate the DNA. The minimum advisable volume is around 15 μl (you will need 10 μl for the library, plus a few μl for quantification)
+
+## Library preparation
+
+New equipment needed:
+![miniPCR](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/bf925ca1-1c5b-44d6-b117-9fff1b454f90)
+Mini-thermocycler
+
 
 
