@@ -16,6 +16,7 @@ The protocol comprises several steps:
 And also other reccomendations:
 
 - [Powering the system](#Powering-the-system)
+- [Other equipment](#Other-equipment)
 
 ## Sample preparation
 
@@ -211,4 +212,17 @@ We are using this very nice 200 W [portable batteries](https://www.uking-online.
 
 Their 60000mAh are providing us with several hours of autonomy. One of them is capable to support all the setting above for a full experiment, altough you will want to bring two for backup purposes. Another good feature is that they are rather cheap, and ligther than you expect (2.4 Kg).
 
-We connect a small power strip to the batteries, just for having all instruments plugged at once.
+Take into account that, in cold conditions, all bateries will be drained very quickly, and these are not the exception. It will be needed to isolate these in some container that can be heated.
+
+## Other equipment
+
+Some other stuff that you will find adequate (and miss if you didn´t bring it):
+
+- A small tent: You would need some shelter, for you and for the equipment. The main requirements are:
+  - Stable
+  - tall enough to allow being sitted inside
+  - ligth weigth
+
+    
+
+
