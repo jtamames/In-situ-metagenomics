@@ -5,7 +5,7 @@ We have been able to run this full protocol in less than 24 hours, in several in
 
 The protocol comprises several steps:
 
-- Sample preparation
+- [Sample preparation](#Sample preparation)
 - DNA extraction
 - DNA quantification
 - DNA purification/concentration
