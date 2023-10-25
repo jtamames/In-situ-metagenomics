@@ -6,12 +6,12 @@ We have been able to run this full protocol in less than 24 hours, in several in
 The protocol comprises several steps:
 
 - [Sample preparation](#Sample-preparation)
-- DNA extraction
-- DNA quantification
-- DNA purification/concentration
-- Library preparation
-- ONT sequencing
-- Bioinformatic analysis
+- [DNA extraction](#DNA-extraction)
+- [DNA quantification](#DNA-quantification)
+- [DNA purification/concentration](#DNA-purification-and-concentration)
+- [Library preparation](#Library-preparation)
+- [MinION sequencing](#MINion-sequencing)
+- [Bioinformatic analysis](#Bioinformatic-analysis)
 
 ## Sample preparation
 
