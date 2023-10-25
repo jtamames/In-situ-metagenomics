@@ -211,4 +211,4 @@ We are using this very nice 200 W [portable batteries](https://www.uking-online.
 
 Their 60000mAh are providing us with several hours of autonomy. One of them is capable to support all the setting above for a full experiment, altough you will want to bring two for backup purposes. Another good feature is that they are rather cheap, and ligther than you expect (2.4 Kg).
 
-We couple the batteries to a small power strip, just for having all instruments plugged at once.
+We connect a small power strip to the batteries, just for having all instruments plugged at once.
