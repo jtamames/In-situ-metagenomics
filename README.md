@@ -151,7 +151,7 @@ MinION device and laptop computer
 
 First, install [MinKNOW](https://nanoporetech.com/about-us/news/introducing-new-minknow-app) in the laptop. This is the ONT software managing the MinION. Almost any laptop is suitable for managing the sequencing, altough a high-performance one is advisable. RAM memory is critical for the subsequent analysis, no less than 16 Gb is reccomended, and the more the better. Number of cores is also important, I would reccomend eigth. And you would need storage capacity for storing results. Take into account that MinKNOW will require a minimum amount of storage to start the sequencing (around 100 Gb). If the laptop has a GPU, much better, because this will increase a lot the basecalling performance.
 
-MinKNOWN needs internet connection because it downloads some data at the beginning of the run. If you are planning to do sequencing in the wild, you will need to set up MinKNOWN to work wth no internet connectivity. In order to change your Linux version of MinKNOW to the offline version, do the following:
+MinKNOW needs internet connection because it downloads some data at the beginning of the run. If you are planning to do sequencing in the wild, you will need to set up MinKNOW to work wth no internet connectivity. In order to change your Linux version of MinKNOW to the offline version, do the following:
 
     1.Install latest version of the software.
     2.Disable the WiFi to prevent connection after restarting.
@@ -176,9 +176,9 @@ A Priming Kit is shipped with the Rapid Barcoding kit. You need it to prime the 
 
 Then proceed to load the library on the flow cell, following the same protocol above. 
 
-Open the MinKNOWN application and click on the "Start sequencing" option. Navigate through the menus following [this protocol](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/experiment-companion-minknow/v/mke_1013_v1_revcy_11apr2016). The options are very straightforward, and very few options need to be adjusted. Set run length to 72 hours (you can always stop it sooner). Set the output to gzip compressed fastq files. You can also change the time between MUX scans if you want to check the flow cell status more or less often.
+Open the MinKNOW application and click on the "Start sequencing" option. Navigate through the menus following [this protocol](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/experiment-companion-minknow/v/mke_1013_v1_revcy_11apr2016). The options are very straightforward, and very few options need to be adjusted. Set run length to 72 hours (you can always stop it sooner). Set the output to gzip compressed fastq files. You can also change the time between MUX scans if you want to check the flow cell status more or less often.
 
-Check the sequencing progress using the MinKNOWN's GUI. Several informations are available, for isntance a plot of the channel states, like this:
+Check the sequencing progress using the MinKNOW's GUI. Several informations are available, for isntance a plot of the channel states, like this:
 
 ![stats](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ec4ce8d7-68e3-4382-9916-2cdd6eb50a36)
 
