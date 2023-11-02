@@ -24,11 +24,8 @@ Follow your usual protocol for preparing samples. Rock samples must be grinded t
 
 ## DNA extraction
 
-
-
-
-
 Equipment needed:
+
 ![spinner](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/d95d9d45-9de7-45b9-af72-16a5d26b1a9c)&nbsp;&nbsp;
 ![vortex](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/3ebcf067-ae83-4744-98ae-3ec98ab75719)&nbsp;&nbsp;
 ![centri](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/f327d3d4-500e-4df8-937e-61405161685c)
