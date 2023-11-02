@@ -92,7 +92,7 @@ CAVEATS:
 
 New equipment needed:
 
-![qubit](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/44301144-ca1a-4905-8137-ca8b2c5022d3)
+![qubit](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/de59acda-7b94-4bd7-83fd-e7f069a08132)
 
 Qubit4 Fluorometer
 
@@ -111,7 +111,7 @@ We use Omega Mag-Bind TotalPure NGS Beads. The purpose of this step is:
 
 For this, we will use a magnetic rack like this one:
 
-![rack](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ed689cfd-9d6b-41d5-a67b-302dee21cd80)
+![rack](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/4499d363-1f61-42fe-b8e6-336b5151a92d)
 
 Mini magnetic rack (2 tubes)
 
@@ -128,7 +128,7 @@ Concentration can be done eluting in a smaller volume than the original. Tipical
 
 New equipment needed:
 
-![miniPCR](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/bf925ca1-1c5b-44d6-b117-9fff1b454f90)
+![miniPCR](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/cb8dd38a-0402-495f-8017-1e51c99370e6)
 
 Mini-thermocycler
 
@@ -146,7 +146,7 @@ CAVEATS:
 
 New equipment needed:
 
-![minion](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/1e260dac-edae-4c33-9430-f143aa3e5240)
+![minion](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/3cb89c4f-147c-46d4-aba6-81468af3e379)
 
 MinION device and laptop computer
 
@@ -181,7 +181,7 @@ Open the MinKNOW application and click on the "Start sequencing" option. Navigat
 
 Check the sequencing progress using the MinKNOW's GUI. Several informations are available, for isntance a plot of the channel states, like this:
 
-![stats](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/ec4ce8d7-68e3-4382-9916-2cdd6eb50a36)
+![stats](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/34646382-d3f8-4f06-b41d-dd3f4761f6d3)
 
 Each channel is a grouping of several pores, and the status show what they are doing. The "Strand" ones are the channels that are sequencing a DNA strand. "Single pore" are empty channels. And "Adapter" are the ones that are attached to adapters but not actually sequencing. You would like to see few "Single pore" channels. If you see many, there is little DNA in the flow cell. Should you see many "adapter" channels, that means that there is plenty of free adapters, again because DNA is scarce, or because the adapters did not bind properly to DNA strands. The latter can happen because of small lenghs of the DNAs, probably prointing to excesive fragmentation during the DNA extraction or the preparation of the library.
 
@@ -209,7 +209,8 @@ If you are planning to use this system outdoors, you would need a power supply f
 
 We are using this very nice 200 W [portable batteries](https://www.uking-online.com/product/uking-portable-power-generator-222wh-60000mah-with-dc-ac-inverter-charged-by-solar-panel-wall-outlet-for-solar-generator-outdoor-camping-travel-emergency-backup):
 
-![battery](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/89de7f1f-ab0b-4789-80ea-9b620cd5d7e2)
+![battery](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/eedba661-3e79-4c58-a718-c7c722e59943)
+
 
 Their 60000mAh are providing us with several hours of autonomy. One of them is capable to support all the setting above for a full experiment, altough you will want to bring two for backup purposes. Another good feature is that they are rather cheap, and ligther than you expect (2.4 Kg).
 
@@ -234,7 +235,7 @@ Some other stuff that you will find adequate (and miss if you didn´t bring them
 
 - Thermal isolated containers: some reactives (and flow cells) need to be in cold storage. We use a portable camping fridge like this one, and fill it with ice blocks.
   
-![fridge](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/1b7b9f64-db2e-4326-be6a-56642e287652)
+![fridge](https://github.com/jtamames/In-situ-metagenomics/assets/34687997/8c067762-5ab4-4ca3-a256-36e4b76f0bd5)
 
   In case you are working in cold conditions, you will find interesting the use of the small hand warmer that you can see in the picture. Putting two of these in the containers helps to keep the temperature warm enoughfor devices such as the batteries or the MinION sequencer, that are sensitive to cold.
 
